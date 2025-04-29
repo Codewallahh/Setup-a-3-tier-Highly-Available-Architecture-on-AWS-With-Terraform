@@ -28,12 +28,19 @@ Follow these steps to provision your infrastructure:
 ```sh
 git clone https://github.com/Codewallahh/Setup-a-3-tier-Highly-Available-Architecture-on-AWS-With-Terraform.git
 cd Setup-a-3-tier-Highly-Available-Architecture-on-AWS-With-Terraform
-```sh
+```
 ### **Step 2: Initialize Terraform**
+```sh
 terraform init
+```
 ### **Step 3: Preview Changes**
+```sh
+
 terraform plan
+```
 ### **Step 4: Apply Deployment**
+```sh
 terraform apply -auto-approve
+```
 
 
